@@ -1,0 +1,242 @@
+@import url('https://fonts.google.com/specimen/Rubik');
+
+
+@media (min-width: 700px) {
+    .Cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1% 5%;
+        width: 60%;
+        margin: auto;
+    }
+    .CardsReply{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        padding: 1% 5%;
+        width: 60%;
+        margin: auto;
+    }
+    .CardsBack{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        border-radius: 10px;
+        width: 95%;
+    }
+    .CardsBackReply{
+        background-color: white;
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    .contbutton{
+        background-color: #F6F7FC;
+        width: 45px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+    }
+    .clicks{
+        background: none;
+        border: none;
+        color: #605faa80;
+        font-weight: 700;
+        margin: auto;
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .count{
+        color: #605faa;
+        font-weight: 700;
+        margin: 0 auto;
+        font-size: 20px;
+
+    }
+    .contUsercont{
+        width: 100%;
+    }
+    .userCont{
+        display: flex;
+        flex-direction: row;
+        padding-left: 20px;
+        align-items: center;
+    }
+    .fotoUser{
+        width: 45px;
+        height: 45px;
+    }
+    .you{
+        background: #5458B7;
+        color: white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin: 0 10px;
+    }
+    .textYou{
+        margin: 0;
+        font-weight: 500;
+        padding: 2px 6px;
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    .user{
+        margin: 0 0 0 10px;
+        width: 25%;
+
+    }
+    .time{
+        margin: 0 5px;
+        width: 40%;
+        color: #65686B;
+    }
+    .actButtonUser{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+    }
+    .delete{
+        background: none;
+        border: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .edit{
+        background: none;
+        border: none;
+        display: flex;
+        flex-direction: row;
+    }
+    .reply{
+        background: none;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0 0 0 40%;
+    }
+    .textDelete{
+        color: #E47279;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    .textReply{
+        color: #605faa;
+        font-weight: 700;
+        font-size: 16px;
+        margin: 0 5px;
+    }
+    .message{
+        padding-left: 20px;
+        width: 90%;
+    }
+    .inputCard{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        padding: 1% 5%;
+        width: 60%;
+        margin: auto;
+    }
+    .editInputCont{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 5px;
+    }
+    .inputEdit{
+        width: 98%;
+        height: 75px;
+        border: 1.5px solid #EDEDED;
+        border-radius: 5px; 
+        margin: 10px;
+    }
+    .InputRe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+    }
+    .inputBackRe{
+        background-color: white;
+        width: 95%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        padding: 2%;
+        border-radius: 10px;
+    }
+    .actButtonUserMob{
+        display: none;
+    }
+    .replyMob{
+        display: none;
+    }
+    .DeleteOverlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        backdrop-filter: brightness(.2);
+        z-index: 999;
+    }
+    .DeleteCont {
+        width: 16%;
+        height: 18%;
+        background-color: white;
+        margin-top: 20%;
+        margin-left: 40%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .titleDel{
+        margin: 0;
+        padding: 0;
+        color: #434547;
+    }
+    .textDel{
+        margin: 2;
+        padding: 0;
+        color: #65686B;
+    }
+    .buttonYesNo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .no{
+        width: 45%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 0;
+        background-color: #434547;
+        color: white;
+    }
+    .yes{
+        width: 45%;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 0;
+        background-color: #E47279;
+        color: white;
+    }
+}
